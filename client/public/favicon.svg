@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#aa7c11" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Navy Base Plate with Gold Rim -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="#c59b27" stroke-width="2" />
+
+  <!-- Hotel Crown / Star Motif -->
+  <path d="M32 9 L34.5 14 L39.5 14.5 L35.5 18 L36.8 23 L32 20.2 L27.2 23 L28.5 18 L24.5 14.5 L29.5 14 Z" fill="url(#goldGrad)" />
+
+  <!-- Architectural Hotel Grand Facade / Stylized 'A' -->
+  <!-- Roof Gable -->
+  <path d="M19 25 L32 16 L45 25" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Outer Hotel Pillars -->
+  <path d="M21 25 L21 51 M43 25 L43 51" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Central 'A' Tower with Entrance Archway -->
+  <path d="M26 51 L32 23 L38 51" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- 'A' Crossbar / Floor Division -->
+  <path d="M28 38 L36 38" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Grand Entrance Arch -->
+  <path d="M29 51 L29 44 Q32 41 35 44 L35 51 Z" fill="url(#goldGrad)" opacity="0.9" />
+
+  <!-- Balcony / Symmetrical Room Windows -->
+  <rect x="23" y="29" width="3" height="4" rx="0.8" fill="url(#goldGrad)" />
+  <rect x="38" y="29" width="3" height="4" rx="0.8" fill="url(#goldGrad)" />
+  <rect x="23" y="36" width="3" height="4" rx="0.8" fill="url(#goldGrad)" />
+  <rect x="38" y="36" width="3" height="4" rx="0.8" fill="url(#goldGrad)" />
+
+  <!-- Foundation Line -->
+  <line x1="16" y1="51" x2="48" y2="51" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+</svg>
